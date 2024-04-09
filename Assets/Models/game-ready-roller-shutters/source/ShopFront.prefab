@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4081320433244456408}
   - component: {fileID: 3741155453280879319}
   - component: {fileID: 1499002040141691821}
+  - component: {fileID: 4524966272734120096}
   m_Layer: 0
   m_Name: Cube.005
   m_TagString: Untagged
@@ -83,6 +84,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4524966272734120096
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2359784644663461319}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.0032912402, y: 0.0346903, z: 0.031458788}
+  m_Center: {x: 0.0012129579, y: 0.0000107036685, z: 0.015729394}
 --- !u!1 &3580645906431830688
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,6 +116,7 @@ GameObject:
   - component: {fileID: 8058444885028692201}
   - component: {fileID: 6316744393158292401}
   - component: {fileID: 2230629855043015831}
+  - component: {fileID: 2800303280439369115}
   m_Layer: 0
   m_Name: Cube.006
   m_TagString: Untagged
@@ -166,6 +189,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2800303280439369115
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3580645906431830688}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.0032912411, y: 0.034690302, z: 0.03145879}
+  m_Center: {x: 0.0012129626, y: 0.000010690908, z: 0.015729396}
 --- !u!1 &8164078558771037576
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,6 +221,7 @@ GameObject:
   - component: {fileID: 1151388028547126963}
   - component: {fileID: -6400281290468069383}
   - component: {fileID: -7635826562936255635}
+  - component: {fileID: 469658731342893969}
   m_Layer: 0
   m_Name: default
   m_TagString: Untagged
@@ -249,6 +294,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &469658731342893969
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8164078558771037576}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2432090755550338912, guid: 9ae987a388061094d9f030481fcd5db1, type: 3}
 --- !u!1 &8811261257211379897
 GameObject:
   m_ObjectHideFlags: 0
@@ -295,6 +362,7 @@ GameObject:
   - component: {fileID: 18115401744989103}
   - component: {fileID: 7806490207611723902}
   - component: {fileID: 3845814534100447926}
+  - component: {fileID: 6824756578519025784}
   m_Layer: 0
   m_Name: Cube.006 (1)
   m_TagString: Untagged
@@ -367,3 +435,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6824756578519025784
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8946022544681235029}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.0032912411, y: 0.034690302, z: 0.03145879}
+  m_Center: {x: 0.0012129626, y: 0.000010694634, z: 0.015729396}
