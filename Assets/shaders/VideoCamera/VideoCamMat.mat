@@ -42,7 +42,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Brightness: 2.5
+    - _Brightness: 5
     - _GrainWeakness: 20
     - _PanSpeed: 1000
     - _QueueControl: 0
