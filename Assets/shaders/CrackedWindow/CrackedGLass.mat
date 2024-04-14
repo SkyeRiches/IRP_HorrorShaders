@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-5483933151581686310
+--- !u!114 &-488301989869899448
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: UV Surface
-  m_Shader: {fileID: -6465566751694194690, guid: 9b22897b6434b344bb4b2eafd72bb987,
+  m_Name: CrackedGLass
+  m_Shader: {fileID: -6465566751694194690, guid: 40f7c6b7e394e0e4eb8d53b98f840077,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -37,10 +37,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _MainTexture:
-        m_Texture: {fileID: 2800000, guid: 25deab3c77112e14e94938101ce82aa2, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -55,15 +51,19 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _EmissiveStrength: 3
-    - _LightAngle: 45
-    - _LightRange: 5
+    - _BorderThickness: 0.011
+    - _CrackTransparency: 0.5
+    - _Fade: 2.37
+    - _GlassTransparency: 0.4
+    - _LocalSpace: 0
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _RecursionDepth: 20
+    - _Rejection: 1
+    - _Scale: 3.1
+    - _Smoothness: 0.748
+    - _Transparency: 0
     m_Colors:
-    - _LightColor: {r: 0.40966037, g: 0.20784311, b: 0.85882354, a: 1}
-    - _LightDir: {r: 0.9995282, g: -0, b: 0.030718803, a: 0}
-    - _LightForward: {r: 0, g: 0, b: 1, a: 0}
-    - _LightPos: {r: 1.1330528, g: 2.8121452, b: -3.3697073, a: 0}
-    - _TextColor: {r: 0.7971698, g: 0.94734216, b: 1, a: 1}
+    - _DeepColor: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 0}
+    - _RiftColor: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
