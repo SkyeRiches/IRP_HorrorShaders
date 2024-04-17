@@ -62,8 +62,8 @@ Material:
     - _QueueOffset: 0
     m_Colors:
     - _LightColor: {r: 0.40966037, g: 0.20784311, b: 0.85882354, a: 1}
-    - _LightDir: {r: 0.19255573, g: -0.4942822, b: -0.8477073, a: 0}
+    - _LightDir: {r: 0.98633546, g: 0.092689805, b: -0.13620414, a: 0}
     - _LightForward: {r: 0, g: 0, b: 1, a: 0}
-    - _LightPos: {r: 1.7649289, g: -5.7922606, b: -6.775882, a: 0}
+    - _LightPos: {r: -1.053159, g: -5.91802, b: -14.008052, a: 0}
     - _TextColor: {r: 0.7971698, g: 0.94734216, b: 1, a: 1}
   m_BuildTextureStacks: []
