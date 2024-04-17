@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CrackedGLass
+  m_Name: Roof
   m_Shader: {fileID: -6465566751694194690, guid: 40f7c6b7e394e0e4eb8d53b98f840077,
     type: 3}
   m_Parent: {fileID: 0}
@@ -59,20 +59,20 @@ Material:
     - _AlphaToMask: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
-    - _BorderThickness: 0.011
+    - _BorderThickness: 0.002
     - _CastShadows: 1
     - _CrackTransparency: 0.5
-    - _Cull: 0
+    - _Cull: 2
     - _DstBlend: 10
-    - _Fade: 2.37
-    - _GlassTransparency: 0.4
+    - _Fade: 2.15
+    - _GlassTransparency: 0.31
     - _LocalSpace: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _RecursionDepth: 20
     - _Rejection: 1
-    - _Scale: 3.1
+    - _Scale: 2.8
     - _Smoothness: 0.748
     - _SrcBlend: 1
     - _Surface: 1
