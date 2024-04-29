@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5483933151581686310
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -7,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BloodWater
-  m_Shader: {fileID: -6465566751694194690, guid: 809bdb5cb5822d64a98a7df046ce69d7,
+  m_Name: UV Surface 1
+  m_Shader: {fileID: -6465566751694194690, guid: 9b22897b6434b344bb4b2eafd72bb987,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -24,8 +37,8 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Normal1:
-        m_Texture: {fileID: 2800000, guid: 41c6603a66c06c347a667582897f05a7, type: 3}
+    - _MainTexture:
+        m_Texture: {fileID: 2800000, guid: ea38f9265572a0544b715970d405aa9c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -42,33 +55,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _HeightFreq: 5000
-    - _NormalStrength: 0.5
+    - _EmissiveStrength: 3
+    - _LightAngle: 45
+    - _LightRange: 5
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RotationAmount: 0.1
-    - _Smoothness: 0.274
-    - _Transparency: 1
-    - _WaveSpeed: 5
-    - _emission: 0
-    - _freq: 0
-    - _waveAmplitude: 0.0001
     m_Colors:
-    - _Centre: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.5283019, g: 0.05233179, b: 0.05233179, a: 1}
-    - _Offset: {r: 0, g: 0, b: 0, a: 0}
-    - _Tiling: {r: 2, g: 2, b: 0, a: 0}
+    - _LightColor: {r: 0.40966037, g: 0.20784311, b: 0.85882354, a: 1}
+    - _LightDir: {r: -0, g: -1.0000005, b: 0.00000044051558, a: 0}
+    - _LightForward: {r: 0, g: 0, b: 1, a: 0}
+    - _LightPos: {r: 48.17905, g: -9.132999, b: -70.60735, a: 0}
+    - _TextColor: {r: 0.7971698, g: 0.94734216, b: 1, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &2864419715883677384
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 7

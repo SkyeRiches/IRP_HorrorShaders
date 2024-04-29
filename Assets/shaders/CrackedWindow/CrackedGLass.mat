@@ -61,11 +61,11 @@ Material:
     - _BlendModePreserveSpecular: 1
     - _BorderThickness: 0.011
     - _CastShadows: 1
-    - _CrackTransparency: 0.5
+    - _CrackTransparency: 0.3
     - _Cull: 0
     - _DstBlend: 10
     - _Fade: 2.37
-    - _GlassTransparency: 0.4
+    - _GlassTransparency: 0.1
     - _LocalSpace: 0
     - _QueueControl: 0
     - _QueueOffset: 0
