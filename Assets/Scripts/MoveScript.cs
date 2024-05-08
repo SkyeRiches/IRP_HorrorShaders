@@ -24,18 +24,11 @@ public class MoveScript : MonoBehaviour
     Vector3 velocity;
     bool isGrounded;
 
-    [SerializeField] private GameObject uvLight;
-    [SerializeField] private GameObject videoCamera;
-
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             LoadMenu();
-        }
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            SwapItem();
         }
 
         //creates a sphere in which it will check if it is on the ground
@@ -62,12 +55,6 @@ public class MoveScript : MonoBehaviour
     private void LoadMenu()
     {
         SceneManager.LoadScene(0);
-    }
-
-    private void SwapItem()
-    {
-        uvLight.gameObject.SetActive(!uvLight.activeSelf);
-        videoCamera.gameObject.SetActive(!videoCamera.activeSelf);
     }
 
 }

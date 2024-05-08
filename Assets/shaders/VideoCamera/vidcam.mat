@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: VideoCamMat
-  m_Shader: {fileID: -6465566751694194690, guid: 9149be4676f752f419b58633f5ef77cd,
+  m_Name: vidcam
+  m_Shader: {fileID: -6465566751694194690, guid: 49d972c029b53dd4aaeee3356855526f,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -24,7 +24,7 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _VideoInput:
+    - _SampleTexture2D_da0cce5d328f40c9835a4c878817774a_Texture_1_Texture2D:
         m_Texture: {fileID: 8400000, guid: 1899b02ddac674e4cb2a3cea9e15d105, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -42,15 +42,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Brightness: 5
-    - _GrainWeakness: 20
-    - _PanSpeed: 1000
     - _QueueControl: 0
     - _QueueOffset: 0
-    m_Colors:
-    - _ColorOverlay: {r: 0.14208792, g: 0.9716981, b: 0.17581189, a: 0}
+    - _emission: 1
+    m_Colors: []
   m_BuildTextureStacks: []
---- !u!114 &3370207853927529746
+--- !u!114 &8875055789122996329
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
