@@ -63,7 +63,7 @@ Material:
     - _NormalStrength: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _SnowAmount: 1
+    - _SnowAmount: 0
     - _SnowBlendDistance: 0.05
     - _SnowColorNoiseSize: 250
     - _SnowColorNoiseStrength: 0.5

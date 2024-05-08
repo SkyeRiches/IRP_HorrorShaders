@@ -73,7 +73,7 @@ Material:
     - _RecursionDepth: 20
     - _Rejection: 1
     - _Scale: 3.1
-    - _Smoothness: 0.748
+    - _Smoothness: 0.355
     - _SrcBlend: 1
     - _Surface: 1
     - _Transparency: 0
