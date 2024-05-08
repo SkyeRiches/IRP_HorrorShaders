@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class MoveScript : MonoBehaviour
 {
@@ -23,8 +24,20 @@ public class MoveScript : MonoBehaviour
     Vector3 velocity;
     bool isGrounded;
 
+    [SerializeField] private GameObject uvLight;
+    [SerializeField] private GameObject videoCamera;
+
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            LoadMenu();
+        }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            SwapItem();
+        }
+
         //creates a sphere in which it will check if it is on the ground
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
@@ -44,6 +57,17 @@ public class MoveScript : MonoBehaviour
         //applies the vertical velocity to the player whilst ensuring gravity is ever present
         velocity.y += gravity * Time.deltaTime;
         playerController.Move(velocity * Time.deltaTime);
+    }
+
+    private void LoadMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
+
+    private void SwapItem()
+    {
+        uvLight.gameObject.SetActive(!uvLight.activeSelf);
+        videoCamera.gameObject.SetActive(!videoCamera.activeSelf);
     }
 
 }
