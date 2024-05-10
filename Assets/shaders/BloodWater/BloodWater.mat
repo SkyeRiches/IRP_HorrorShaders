@@ -51,6 +51,7 @@ Material:
     - _Transparency: 1
     - _WaveSpeed: 5
     - _emission: 0
+    - _emiussion: 0.16
     - _freq: 0
     - _waveAmplitude: 0.0001
     m_Colors:

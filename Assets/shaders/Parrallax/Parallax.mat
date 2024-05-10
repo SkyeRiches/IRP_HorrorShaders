@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-5483933151581686310
+--- !u!114 &-2008769553203372466
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: UV Surface
-  m_Shader: {fileID: -6465566751694194690, guid: 9b22897b6434b344bb4b2eafd72bb987,
+  m_Name: Parallax
+  m_Shader: {fileID: -6465566751694194690, guid: 8862402400b7ed443a18fa27f4eccd75,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -37,8 +37,12 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _MainTexture:
-        m_Texture: {fileID: 2800000, guid: 25deab3c77112e14e94938101ce82aa2, type: 3}
+    - _Cubemap:
+        m_Texture: {fileID: 8900000, guid: 9b0b48e577459c64db7eb673bd2b828d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleCubemap_18e31870f2e2422980df8c0e6646f64a_Cube_1_Cubemap:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -55,15 +59,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _EmissiveStrength: 3
-    - _LightAngle: 45
-    - _LightRange: 5
+    - _Parallax_strngeth: 0.931
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _LightColor: {r: 0.40966037, g: 0.20784311, b: 0.85882354, a: 1}
-    - _LightDir: {r: -0.5885423, g: 0.5542692, b: -0.5885608, a: 0}
-    - _LightForward: {r: 0, g: 0, b: 1, a: 0}
-    - _LightPos: {r: 9.8657255, g: -6.0117273, b: -3.8384135, a: 0}
-    - _TextColor: {r: 0.7971698, g: 0.94734216, b: 1, a: 1}
+    - _Color: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 0}
   m_BuildTextureStacks: []

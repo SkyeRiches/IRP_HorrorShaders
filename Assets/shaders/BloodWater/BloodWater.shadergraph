@@ -35,6 +35,9 @@
         },
         {
             "m_Id": "bc66406623ab4198b1ffc3b44d52c833"
+        },
+        {
+            "m_Id": "008148f3a3224d66abdab33614ccda19"
         }
     ],
     "m_Keywords": [],
@@ -917,6 +920,34 @@
             "m_Id": "a0204ee9a60d473285600745f5e14fa6"
         }
     ]
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
+    "m_ObjectId": "008148f3a3224d66abdab33614ccda19",
+    "m_Guid": {
+        "m_GuidSerialized": "8a564dfb-1314-4aba-9862-9d58278b2284"
+    },
+    "m_Name": "emiussion",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "emiussion",
+    "m_DefaultReferenceName": "_emiussion",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": 0.0,
+    "m_FloatType": 0,
+    "m_RangeValues": {
+        "x": 0.0,
+        "y": 1.0
+    }
 }
 
 {
@@ -2080,8 +2111,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -547.0000610351563,
-            "y": 386.0,
+            "x": -790.0,
+            "y": 326.0,
             "width": 158.0,
             "height": 34.0
         }
@@ -2335,6 +2366,9 @@
         },
         {
             "m_Id": "bc66406623ab4198b1ffc3b44d52c833"
+        },
+        {
+            "m_Id": "008148f3a3224d66abdab33614ccda19"
         }
     ]
 }
@@ -4937,10 +4971,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -354.00006103515627,
-            "y": 298.0,
-            "width": 165.99998474121095,
-            "height": 118.00003051757813
+            "x": -584.0,
+            "y": 268.0,
+            "width": 166.0,
+            "height": 118.0
         }
     },
     "m_Slots": [
@@ -5849,9 +5883,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -174.99998474121095,
-            "y": 235.0,
-            "width": 104.99998474121094,
+            "x": -438.0,
+            "y": 200.0,
+            "width": 105.0,
             "height": 34.0
         }
     },
