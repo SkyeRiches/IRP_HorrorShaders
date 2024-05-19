@@ -114,7 +114,20 @@
             "m_Id": "7390ffc1a2f2483abfbee1b417134c55"
         }
     ],
-    "m_StickyNoteDatas": [],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "234a1c644afa470c9188430d81f8c7d6"
+        },
+        {
+            "m_Id": "2176c3e6b70a42f697071a1e69c401e7"
+        },
+        {
+            "m_Id": "e705da33da734a3183f6679020d7881c"
+        },
+        {
+            "m_Id": "cf29406ce81344b48918e7117a90df6c"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -488,7 +501,7 @@
     },
     "m_Name": "Object",
     "m_DrawState": {
-        "m_Expanded": true,
+        "m_Expanded": false,
         "m_Position": {
             "serializedVersion": "2",
             "x": -1878.0,
@@ -934,6 +947,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "2176c3e6b70a42f697071a1e69c401e7",
+    "m_Title": "adjust the alpha of the object based on the fill amount, bits filled are the color assigned, and the rest is transparent",
+    "m_Content": "",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -464.0,
+        "y": 664.0,
+        "width": 200.0,
+        "height": 213.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "22e61b39b5fd425fada3d374aac54cb8",
     "m_Id": 3,
@@ -953,6 +986,26 @@
         "y": 0.0,
         "z": 0.0,
         "w": 0.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "234a1c644afa470c9188430d81f8c7d6",
+    "m_Title": "color based on whether its front or side face",
+    "m_Content": "",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -465.0,
+        "y": 34.0,
+        "width": 200.0,
+        "height": 100.0
+    },
+    "m_Group": {
+        "m_Id": ""
     }
 }
 
@@ -2764,6 +2817,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "cf29406ce81344b48918e7117a90df6c",
+    "m_Title": "rotate the uvs based on a wobble amount",
+    "m_Content": "",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1671.0,
+        "y": -284.0,
+        "width": 200.0,
+        "height": 100.0
+    },
+    "m_Group": {
+        "m_Id": "7390ffc1a2f2483abfbee1b417134c55"
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.BranchNode",
     "m_ObjectId": "d56326d9da614a08b35c87535b37dc10",
     "m_Group": {
@@ -3074,6 +3147,26 @@
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "e705da33da734a3183f6679020d7881c",
+    "m_Title": "adjust position of current uv cooridinate based on the wobble of the liquid",
+    "m_Content": "",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1291.0,
+        "y": 145.0,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": ""
     }
 }
 

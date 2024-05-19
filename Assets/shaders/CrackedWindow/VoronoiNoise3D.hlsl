@@ -58,6 +58,11 @@ float2 VoronoiNoise3D(float3 x)
 }
 ////
 
+
+
+
+
+
 // Projection of A onto the plane defined by its normal B
 float3 rejection(float3 A, float3 B)
 {

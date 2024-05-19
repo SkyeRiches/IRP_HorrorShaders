@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-5483933151581686310
+--- !u!114 &-966041891622416807
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: UV Surface
-  m_Shader: {fileID: -6465566751694194690, guid: 9b22897b6434b344bb4b2eafd72bb987,
+  m_Name: TableSnow
+  m_Shader: {fileID: -6465566751694194690, guid: e6aa517da6b66c34b8dd146e4c6187c4,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -37,8 +37,12 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _MainTexture:
-        m_Texture: {fileID: 2800000, guid: 25deab3c77112e14e94938101ce82aa2, type: 3}
+    - _BaseTexture:
+        m_Texture: {fileID: 2800000, guid: a12ae9cef3ef4e445a5af65ce2a39692, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 718b1042b89a6724f82fbe568334f192, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -55,15 +59,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _EmissiveStrength: 3
-    - _LightAngle: 45
-    - _LightRange: 5
+    - _BuildupNoiseSize: 50
+    - _NormalStrength: 0.4
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _SnowAmount: 0
+    - _SnowBlendDistance: 0.05
+    - _SnowColorNoiseSize: 250
+    - _SnowColorNoiseStrength: 0.5
     m_Colors:
-    - _LightColor: {r: 0.40966037, g: 0.20784311, b: 0.85882354, a: 1}
-    - _LightDir: {r: -0.52928805, g: -0.82429445, b: 0.20098239, a: 0}
-    - _LightForward: {r: 0, g: 0, b: 1, a: 0}
-    - _LightPos: {r: 4.003421, g: -5.7233753, b: -12.870284, a: 0}
-    - _TextColor: {r: 0.7971698, g: 0.94734216, b: 1, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 0}
+    - _SnowColor: {r: 1, g: 1, b: 1, a: 0}
+    - _SnowDirection: {r: 0, g: 2, b: 0, a: 0}
   m_BuildTextureStacks: []

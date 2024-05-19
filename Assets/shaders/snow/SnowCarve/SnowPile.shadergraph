@@ -112,8 +112,22 @@
             "m_Id": "8e7a754c29864ac99c145791aa547c40"
         }
     ],
-    "m_GroupDatas": [],
-    "m_StickyNoteDatas": [],
+    "m_GroupDatas": [
+        {
+            "m_Id": "85a8ad0af3b548dc8545fb5dd48436db"
+        },
+        {
+            "m_Id": "8af1f04bee49410cafcdcb981188e500"
+        }
+    ],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "eaf9cc888f1f4f559c824c53bfe69729"
+        },
+        {
+            "m_Id": "637b060472f04f45a70665f2caf06f2e"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -485,9 +499,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -862.9999389648438,
+            "x": -864.0001220703125,
             "y": 454.0000305175781,
-            "width": 133.99993896484376,
+            "width": 134.00006103515626,
             "height": 33.999969482421878
         }
     },
@@ -708,8 +722,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -656.967529296875,
-            "y": 472.032470703125,
+            "x": -658.0000610351563,
+            "y": 472.0,
             "width": 208.0,
             "height": 302.0
         }
@@ -744,7 +758,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PositionNode",
     "m_ObjectId": "11b2a323052447e4878df9c36f43f827",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "8af1f04bee49410cafcdcb981188e500"
     },
     "m_Name": "Position",
     "m_DrawState": {
@@ -1168,7 +1182,7 @@
     "m_Type": "UnityEditor.ShaderGraph.CombineNode",
     "m_ObjectId": "451310bc079a4d73945488d1b9c06173",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "8af1f04bee49410cafcdcb981188e500"
     },
     "m_Name": "Combine",
     "m_DrawState": {
@@ -1403,20 +1417,40 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "637b060472f04f45a70665f2caf06f2e",
+    "m_Title": "noise creates a random distribution of raised and lowered verts to create a bumpy plane",
+    "m_Content": "",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -935.0,
+        "y": 294.0,
+        "width": 200.0,
+        "height": 159.90249633789063
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "6821704dda4d4229a212a70f047378ca",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "85a8ad0af3b548dc8545fb5dd48436db"
     },
     "m_Name": "Property",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1942.9998779296875,
-            "y": 273.9999694824219,
+            "x": -1676.0001220703125,
+            "y": 499.0000305175781,
             "width": 138.0,
-            "height": 34.000030517578128
+            "height": 33.999969482421878
         }
     },
     "m_Slots": [
@@ -1520,17 +1554,17 @@
     "m_Type": "UnityEditor.ShaderGraph.NoiseNode",
     "m_ObjectId": "76c4ff738ca64d198760d6627039c925",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "85a8ad0af3b548dc8545fb5dd48436db"
     },
     "m_Name": "Simple Noise",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2151.0,
-            "y": 156.99998474121095,
-            "width": 208.0001220703125,
-            "height": 337.0
+            "x": -1884.0001220703125,
+            "y": 382.0,
+            "width": 147.0,
+            "height": 153.0
         }
     },
     "m_Slots": [
@@ -1548,7 +1582,7 @@
         "value noise"
     ],
     "m_Precision": 0,
-    "m_PreviewExpanded": true,
+    "m_PreviewExpanded": false,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -1620,7 +1654,7 @@
     "m_Type": "UnityEditor.ShaderGraph.SplitNode",
     "m_ObjectId": "7ca36e5330be40dfbac1b6d4f292c24a",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "8af1f04bee49410cafcdcb981188e500"
     },
     "m_Name": "Split",
     "m_DrawState": {
@@ -1730,7 +1764,7 @@
     "m_Type": "UnityEditor.ShaderGraph.MultiplyNode",
     "m_ObjectId": "853b26549c7f4e8386b8b1b5abfb3dbd",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "8af1f04bee49410cafcdcb981188e500"
     },
     "m_Name": "Multiply",
     "m_DrawState": {
@@ -1818,6 +1852,17 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.GroupData",
+    "m_ObjectId": "85a8ad0af3b548dc8545fb5dd48436db",
+    "m_Title": "using noise to create a snow like texture",
+    "m_Position": {
+        "x": -2076.0,
+        "y": 323.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.CategoryData",
     "m_ObjectId": "873ddc49fba940d3b55218e28aa897e0",
     "m_Name": "",
@@ -1894,20 +1939,31 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.GroupData",
+    "m_ObjectId": "8af1f04bee49410cafcdcb981188e500",
+    "m_Title": "reading from render texture to determine where verts should be raised or lowered",
+    "m_Position": {
+        "x": 10.0,
+        "y": 10.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "8e7a754c29864ac99c145791aa547c40",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "85a8ad0af3b548dc8545fb5dd48436db"
     },
     "m_Name": "Property",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1580.0,
-            "y": 273.9999694824219,
-            "width": 147.0001220703125,
-            "height": 34.000030517578128
+            "x": -1313.0001220703125,
+            "y": 499.0000305175781,
+            "width": 160.0,
+            "height": 33.999969482421878
         }
     },
     "m_Slots": [
@@ -2022,10 +2078,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1130.0,
-            "y": 567.0,
-            "width": 132.0,
-            "height": 94.0
+            "x": -1126.0,
+            "y": 568.0,
+            "width": 132.00006103515626,
+            "height": 94.00006103515625
         }
     },
     "m_Slots": [
@@ -2250,7 +2306,7 @@
     "m_Type": "UnityEditor.ShaderGraph.AddNode",
     "m_ObjectId": "a6eeceafbff54a459086d43f564c228f",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "8af1f04bee49410cafcdcb981188e500"
     },
     "m_Name": "Add",
     "m_DrawState": {
@@ -2517,10 +2573,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1520.0,
-            "y": 590.0,
+            "x": -1516.0,
+            "y": 591.0,
             "width": 162.0,
-            "height": 34.00006103515625
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -2595,17 +2651,17 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "cbf96bd3dd9749f8bac41eeac3080600",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "85a8ad0af3b548dc8545fb5dd48436db"
     },
     "m_Name": "Property",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2318.0,
-            "y": 256.9999694824219,
-            "width": 133.0,
-            "height": 34.000030517578128
+            "x": -2051.0,
+            "y": 482.0000305175781,
+            "width": 132.9998779296875,
+            "height": 33.999969482421878
         }
     },
     "m_Slots": [
@@ -2819,9 +2875,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -936.9999389648438,
+            "x": -938.0000610351563,
             "y": 494.0,
-            "width": 207.99993896484376,
+            "width": 208.0,
             "height": 302.0
         }
     },
@@ -2862,8 +2918,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1325.0,
-            "y": 567.0,
+            "x": -1331.0,
+            "y": 568.0,
             "width": 183.0,
             "height": 251.0
         }
@@ -2964,17 +3020,17 @@
     "m_Type": "UnityEditor.ShaderGraph.MultiplyNode",
     "m_ObjectId": "e84698a169ba45d8a9c74089e24f8ddd",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "85a8ad0af3b548dc8545fb5dd48436db"
     },
     "m_Name": "Multiply",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1409.9998779296875,
-            "y": 170.0,
-            "width": 208.0,
-            "height": 302.0
+            "x": -1143.0,
+            "y": 395.0,
+            "width": 125.99993896484375,
+            "height": 118.0
         }
     },
     "m_Slots": [
@@ -2994,7 +3050,7 @@
         "x"
     ],
     "m_Precision": 0,
-    "m_PreviewExpanded": true,
+    "m_PreviewExpanded": false,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -3053,6 +3109,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "eaf9cc888f1f4f559c824c53bfe69729",
+    "m_Title": "read from render texture, white is where the snow verts should be lowered",
+    "m_Content": "",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1330.0,
+        "y": 830.0,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "ebdd1266f7914b7b9bfe9c4e9d5c254d",
     "m_Id": 4,
@@ -3086,7 +3162,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "eed99359ed294207837dc03862e6cc8e",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "8af1f04bee49410cafcdcb981188e500"
     },
     "m_Name": "Property",
     "m_DrawState": {
@@ -3162,17 +3238,17 @@
     "m_Type": "UnityEditor.ShaderGraph.PowerNode",
     "m_ObjectId": "f9ee91e950a8407b8099bb43faa96b1a",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "85a8ad0af3b548dc8545fb5dd48436db"
     },
     "m_Name": "Power",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1787.9998779296875,
-            "y": 170.0,
-            "width": 207.9998779296875,
-            "height": 302.0
+            "x": -1521.0001220703125,
+            "y": 395.0,
+            "width": 126.0,
+            "height": 118.0
         }
     },
     "m_Slots": [
@@ -3188,7 +3264,7 @@
     ],
     "synonyms": [],
     "m_Precision": 0,
-    "m_PreviewExpanded": true,
+    "m_PreviewExpanded": false,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {

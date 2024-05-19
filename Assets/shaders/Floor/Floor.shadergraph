@@ -160,20 +160,6 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
-                    "m_Id": "170adaab347b43ca905b3ce289672d3b"
-                },
-                "m_SlotId": 0
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "5652a34913fa4ff1bc7afb38a06f23ce"
-                },
-                "m_SlotId": 674719058
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
                     "m_Id": "196f09e9889d478881ebba5f59195592"
                 },
                 "m_SlotId": 0
@@ -468,8 +454,8 @@
     ],
     "m_VertexContext": {
         "m_Position": {
-            "x": 2241.0,
-            "y": 121.0
+            "x": 1734.0001220703125,
+            "y": 353.0000305175781
         },
         "m_Blocks": [
             {
@@ -485,8 +471,8 @@
     },
     "m_FragmentContext": {
         "m_Position": {
-            "x": 2241.0,
-            "y": 321.0
+            "x": 1734.0001220703125,
+            "y": 553.0
         },
         "m_Blocks": [
             {
@@ -1379,24 +1365,6 @@
 }
 
 {
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Texture2DInputMaterialSlot",
-    "m_ObjectId": "5190c904d6ca41ecaf8bf221daa93480",
-    "m_Id": 674719058,
-    "m_DisplayName": "GridNormal",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "_GridNormal",
-    "m_StageCapability": 2,
-    "m_BareResource": false,
-    "m_Texture": {
-        "m_SerializedTexture": "{\"texture\":{\"instanceID\":0}}",
-        "m_Guid": ""
-    },
-    "m_DefaultType": 0
-}
-
-{
     "m_SGVersion": 3,
     "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
     "m_ObjectId": "52f6b416195d436984f171895c589aa3",
@@ -1520,9 +1488,6 @@
         },
         {
             "m_Id": "2306a72b8f774dbfab65af16c0b17ee8"
-        },
-        {
-            "m_Id": "5190c904d6ca41ecaf8bf221daa93480"
         },
         {
             "m_Id": "a4553c6fc2e6405084ace6aba47a8ac4"
@@ -2596,10 +2561,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 1987.0,
-            "y": 491.0,
+            "x": 1396.0,
+            "y": 725.0,
             "width": 126.0,
-            "height": 142.0
+            "height": 142.00006103515626
         }
     },
     "m_Slots": [
@@ -2866,10 +2831,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 1570.0,
-            "y": 292.0,
+            "x": 1238.0,
+            "y": 477.0,
             "width": 130.0,
-            "height": 142.00003051757813
+            "height": 142.0
         }
     },
     "m_Slots": [
@@ -3089,10 +3054,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 2113.000244140625,
-            "y": 440.0,
-            "width": 116.0,
-            "height": 34.0
+            "x": 1606.0,
+            "y": 672.0,
+            "width": 116.0001220703125,
+            "height": 34.00006103515625
         }
     },
     "m_Slots": [
@@ -3275,9 +3240,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 1796.0,
-            "y": 527.0,
-            "width": 140.0,
+            "x": 1207.0,
+            "y": 708.0,
+            "width": 140.0001220703125,
             "height": 34.0
         }
     },

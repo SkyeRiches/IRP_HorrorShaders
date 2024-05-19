@@ -697,10 +697,10 @@
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.GroupData",
     "m_ObjectId": "0230432f4b1d4f18acdb53bbd26de1ca",
-    "m_Title": "SnowBuildup",
+    "m_Title": "SnowBuildup, creating patches of snow based off a simple noise and using smoothstep to get patches of the brighter areas",
     "m_Position": {
-        "x": -1849.999755859375,
-        "y": 589.0001220703125
+        "x": -653.0000610351563,
+        "y": -54.999961853027347
     }
 }
 
@@ -1270,10 +1270,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -238.9998779296875,
-            "y": 232.74993896484376,
-            "width": 147.0001220703125,
-            "height": 153.00006103515626
+            "x": -237.0000457763672,
+            "y": 296.0,
+            "width": 147.00006103515626,
+            "height": 153.00003051757813
         }
     },
     "m_Slots": [
@@ -1337,10 +1337,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 486.00006103515627,
-            "y": 134.74993896484376,
-            "width": 208.00006103515626,
-            "height": 302.00006103515627
+            "x": 487.9998779296875,
+            "y": 198.00003051757813,
+            "width": 208.0,
+            "height": 302.0
         }
     },
     "m_Slots": [
@@ -1495,10 +1495,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -43.9998779296875,
-            "y": 48.74993896484375,
-            "width": 126.0,
-            "height": 118.0
+            "x": -42.0,
+            "y": 112.00004577636719,
+            "width": 125.99996948242188,
+            "height": 117.99995422363281
         }
     },
     "m_Slots": [
@@ -1538,9 +1538,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -238.9998779296875,
-            "y": 450.7498779296875,
-            "width": 147.0001220703125,
+            "x": -237.0000457763672,
+            "y": 514.0,
+            "width": 147.00006103515626,
             "height": 153.0
         }
     },
@@ -1572,7 +1572,7 @@
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.GroupData",
     "m_ObjectId": "3b59e67a559847038521ff80b1b65c3b",
-    "m_Title": "Dot Product",
+    "m_Title": "Dot Product, this is so that snow only applies on the top of objects",
     "m_Position": {
         "x": -2342.0,
         "y": 50.000083923339847
@@ -1703,10 +1703,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -629.999755859375,
-            "y": 371.75,
-            "width": 145.0,
-            "height": 112.0
+            "x": -628.0000610351563,
+            "y": 434.9999694824219,
+            "width": 145.00003051757813,
+            "height": 112.00003051757813
         }
     },
     "m_Slots": [
@@ -1789,9 +1789,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -216.9998779296875,
-            "y": -35.25,
-            "width": 128.0001220703125,
+            "x": -215.00001525878907,
+            "y": 28.00003433227539,
+            "width": 127.99993896484375,
             "height": 94.0
         }
     },
@@ -1966,10 +1966,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 246.00018310546876,
-            "y": 166.74993896484376,
-            "width": 151.99993896484376,
-            "height": 142.00006103515626
+            "x": 247.9999237060547,
+            "y": 230.0,
+            "width": 152.00001525878907,
+            "height": 142.0
         }
     },
     "m_Slots": [
@@ -2002,7 +2002,7 @@
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.GroupData",
     "m_ObjectId": "7090b4aa037545d4bde6ede40f519272",
-    "m_Title": "SnowColor",
+    "m_Title": "random snow color based on simple noise",
     "m_Position": {
         "x": -310.0,
         "y": -613.9999389648438
@@ -2121,10 +2121,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -295.0,
-            "y": -59.24993896484375,
-            "width": 56.0,
-            "height": 23.9998779296875
+            "x": -293.00006103515627,
+            "y": 3.9999845027923586,
+            "width": 56.00001525878906,
+            "height": 24.000049591064454
         }
     },
     "m_Slots": [
@@ -2211,10 +2211,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -12.9998779296875,
-            "y": 247.7498779296875,
+            "x": -11.000082015991211,
+            "y": 311.0,
             "width": 208.0,
-            "height": 326.0001220703125
+            "height": 326.00006103515627
         }
     },
     "m_Slots": [
@@ -2257,10 +2257,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -384.0000305175781,
-            "y": 12.999990463256836,
-            "width": 145.00003051757813,
-            "height": 33.99999237060547
+            "x": -382.00006103515627,
+            "y": 76.0000228881836,
+            "width": 145.00001525878907,
+            "height": 34.00004577636719
         }
     },
     "m_Slots": [
@@ -2323,10 +2323,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 122.000244140625,
-            "y": 12.75,
-            "width": 55.9998779296875,
-            "height": 23.9998779296875
+            "x": 123.99993896484375,
+            "y": 76.0000228881836,
+            "width": 56.00001525878906,
+            "height": 24.00005340576172
         }
     },
     "m_Slots": [
@@ -2359,10 +2359,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -241.00003051757813,
-            "y": 132.99996948242188,
-            "width": 178.9999542236328,
-            "height": 33.99998474121094
+            "x": -239.00001525878907,
+            "y": 196.00006103515626,
+            "width": 179.0,
+            "height": 33.99993896484375
         }
     },
     "m_Slots": [
@@ -2410,10 +2410,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 325.00006103515627,
-            "y": -59.24993896484375,
-            "width": 55.99993896484375,
-            "height": 23.9998779296875
+            "x": 326.99993896484377,
+            "y": 3.9999845027923586,
+            "width": 56.000030517578128,
+            "height": 24.000049591064454
         }
     },
     "m_Slots": [
@@ -2918,10 +2918,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 766.0001220703125,
-            "y": 153.7498779296875,
-            "width": 127.99996948242188,
-            "height": 94.0
+            "x": 767.9998168945313,
+            "y": 216.99998474121095,
+            "width": 128.00006103515626,
+            "height": 94.00001525878906
         }
     },
     "m_Slots": [
@@ -3208,10 +3208,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -630.0,
-            "y": 292.0,
-            "width": 165.99996948242188,
-            "height": 33.999969482421878
+            "x": -628.0000610351563,
+            "y": 355.0000305175781,
+            "width": 166.00006103515626,
+            "height": 34.000030517578128
         }
     },
     "m_Slots": [
@@ -3333,10 +3333,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -453.999755859375,
-            "y": 332.75,
-            "width": 125.9998779296875,
-            "height": 117.9998779296875
+            "x": -452.0000305175781,
+            "y": 396.0000305175781,
+            "width": 125.99996948242188,
+            "height": 117.99996948242188
         }
     },
     "m_Slots": [

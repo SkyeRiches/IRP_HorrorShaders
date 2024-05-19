@@ -52,7 +52,11 @@
             "m_Id": "4c7aa45caf134532b82c840132014919"
         }
     ],
-    "m_GroupDatas": [],
+    "m_GroupDatas": [
+        {
+            "m_Id": "4a2a526f784d4755844d06762ea0ff54"
+        }
+    ],
     "m_StickyNoteDatas": [],
     "m_Edges": [
         {
@@ -464,10 +468,21 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.GroupData",
+    "m_ObjectId": "4a2a526f784d4755844d06762ea0ff54",
+    "m_Title": "Read from render texture and add emission to make the screen always visible",
+    "m_Position": {
+        "x": 10.0,
+        "y": 10.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "4c7aa45caf134532b82c840132014919",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "4a2a526f784d4755844d06762ea0ff54"
     },
     "m_Name": "Property",
     "m_DrawState": {
@@ -738,7 +753,7 @@
     "m_Type": "UnityEditor.ShaderGraph.MultiplyNode",
     "m_ObjectId": "86d58eb030eb4c3e90e665cbcd4fc0c7",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "4a2a526f784d4755844d06762ea0ff54"
     },
     "m_Name": "Multiply",
     "m_DrawState": {
@@ -1013,7 +1028,7 @@
     "m_Type": "UnityEditor.ShaderGraph.SampleTexture2DNode",
     "m_ObjectId": "da0cce5d328f40c9835a4c878817774a",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "4a2a526f784d4755844d06762ea0ff54"
     },
     "m_Name": "Sample Texture 2D",
     "m_DrawState": {
